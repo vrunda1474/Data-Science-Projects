@@ -12,6 +12,26 @@ The project includes data preprocessing, EDA, model training using Random Forest
 - Matplotlib
 - Seaborn
 
+# Project Logic
+
+The model predicts customer churn based on factors like contract type, monthly charges, tenure, and total charges.
+
+Customers with:
+- shorter tenure,
+- higher monthly charges,
+- and month-to-month contracts
+
+are more likely to churn.
+
+Customers with:
+- long-term contracts,
+- longer tenure,
+- and stable payment history
+
+are more likely to stay with the company.
+
+The Streamlit application allows users to enter customer details and instantly check the churn prediction.
+
 # How It Works
 
 1. The dataset is loaded and cleaned using Pandas.
