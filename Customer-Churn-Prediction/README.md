@@ -45,6 +45,10 @@ The Streamlit application allows users to enter customer details and instantly c
 
 Dataset → Data Cleaning → Encoding → Model Training → Prediction → Streamlit Interface
 
+## Model Accuracy
+
+The Random Forest model achieved an accuracy of approximately 80–85%.
+
 # Application Screenshot
 
 ![App Screenshot](Images/home_page.png)
